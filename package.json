@@ -1,5 +1,5 @@
 {
-  "name": "@cqumirror/remark-content-shortcode",
+  "name": "remark-content-shortcode",
   "version": "0.1.0",
   "description": "a remarkjs plugin for hugo style shortcode support",
   "main": "index.js",

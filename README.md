@@ -1,6 +1,16 @@
 ## remark plugin shortcode
 This plugin support shortcode in `Hugo` style. 
 
+### Install
+Run:
+```bash
+# npm
+npm install remark-content-shortcode
+
+# yarn
+yarn add remark-content-shortcode
+```
+
 ### Example
 An example is as follows:
 ```markdown
