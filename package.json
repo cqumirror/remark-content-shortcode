@@ -1,11 +1,8 @@
 {
   "name": "@cqumirror/remark-content-shortcode",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "a remarkjs plugin for hugo style shortcode support",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cqumirror/remark-content-shortcode.git"
@@ -20,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/cqumirror/remark-content-shortcode/issues"
   },
-  "homepage": "https://github.com/cqumirror/remark-content-shortcode#readme"
+  "homepage": "https://github.com/cqumirror/remark-content-shortcode#readme",
+  "peerDependencies": {
+    "remark-parse": ">=9.0.0"
+  },
+  "devDependencies": {
+    "remark": "^13.0.0-alpha.1",
+    "remark-cli": "^8.0.0"
+  }
 }
